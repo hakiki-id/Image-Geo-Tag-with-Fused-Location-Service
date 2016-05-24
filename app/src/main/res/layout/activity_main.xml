@@ -17,8 +17,9 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:background="@android:color/transparent"
             android:id="@+id/btn_takeCamera"
-            android:src="@android:mipmap/sym_def_app_icon"
+            android:src="@drawable/ic_camera"
             android:layout_above="@+id/textView"
             android:layout_alignParentStart="true"
             android:onClick="take_photo"/>
@@ -38,9 +39,10 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:id="@+id/btn_browsefile"
-            android:src="@android:mipmap/sym_def_app_icon"
+            android:src="@drawable/ic_browser"
             android:layout_below="@+id/textView"
             android:layout_alignParentStart="true"
+            android:background="@android:color/transparent"
             android:onClick="Open_Galery"/>
     </RelativeLayout>
 </RelativeLayout>
